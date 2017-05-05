@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+.wraper {
+  overflow: hidden;
+  width: 560px;
+  height: 449px;
+  margin: 30px auto;
+  background: #80cdc6;
+  position: relative;
+
+}
+
+
+#clouds {
+  width:360px;
+  height: 210px;
+  position: absolute;
+  top:-50px;
+  right:0;
+  z-index: 1;
+}
+
+#water {
+  width: 560px;
+  position: absolute;
+  bottom:-1px;
+  left:-1;
+  z-index: 10;
+}
+
+#world {
+  height: 360px;
+  width: 560px;
+  position: absolute;
+  bottom:0;
+  left:0;
+  z-index: 7;
+}
+
+#ship {
+  width: 114px;
+  height: auto;
+  position: absolute;
+  bottom: 35px;
+  left: 26px;
+  z-index: 8;
+}
+
+#sun {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  top: 35px;
+  left: 26px;
+  z-index: 8;
+}
+
+#comet {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  top: 135px;
+  right: 26px;
+  z-index: 8;
+}
